@@ -8,7 +8,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Admin", path: "/admin" },
     { name: "Projects", path: "/projects" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
@@ -65,7 +64,7 @@ const Navbar = () => {
           <div className="hidden lg:block">
             <Link
               to="/login"
-              className="bg-[#251d58] hover:bg-amber-700 text-white px-8 py-3 rounded-xs transition duration-300"
+              className="bg-[#251d58] hover:bg-amber-700 text-white px-8 py-3 rounded-sm transition duration-300"
             >
               Login
             </Link>
